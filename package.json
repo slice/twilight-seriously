@@ -8,7 +8,7 @@
     "theme",
     "twilight"
   ],
-  "repository": "https://github.com/atom/twilight-seriously",
+  "repository": "https://github.com/sliceofcode/twilight-seriously",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
