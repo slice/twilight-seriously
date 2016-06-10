@@ -1,0 +1,16 @@
+{
+  "name": "twilight-seriously",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Twilight for Atom. Seriously.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "twilight"
+  ],
+  "repository": "https://github.com/atom/twilight-seriously",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
