@@ -146,21 +146,30 @@ atom-text-editor.is-focused, :host(.is-focused) {
 
 .meta.preprocessor.c {
   color: #8996A8;
+  .keyword {
+    color: #AFC4DB;
+  }
 }
 
-.meta.preprocessor.c .keyword {
-  color: #AFC4DB;
-}
-
-.meta.tag.sgml.doctype, .meta.tag.sgml.doctype .entity, .meta.tag.sgml.doctype .string, .meta.tag.preprocessor.xml, .meta.tag.preprocessor.xml .entity, .meta.tag.preprocessor.xml .string {
+.meta.tag.sgml.doctype,
+.meta.tag.sgml.doctype .entity,
+.meta.tag.sgml.doctype .string,
+.meta.tag.preprocessor.xml,
+.meta.tag.preprocessor.xml .entity,
+.meta.tag.preprocessor.xml .string {
   color: #494949;
 }
 
-.declaration.tag, .declaration.tag .entity, .meta.tag, .meta.tag .entity {
-  color: #AC885B;
+.declaration.tag, .meta.tag {
+  .entity { color: #AC885B; }
 }
 
-.declaration.tag.inline, .declaration.tag.inline .entity, .source .entity.name.tag, .source .entity.other.attribute-name, .meta.tag.inline, .meta.tag.inline .entity {
+.declaration.tag.inline,
+.declaration.tag.inline .entity,
+.source .entity.name.tag,
+.source .entity.other.attribute-name,
+.meta.tag.inline,
+.meta.tag.inline .entity {
   color: #E0C589;
 }
 
@@ -168,7 +177,8 @@ atom-text-editor.is-focused, :host(.is-focused) {
   color: #CDA869;
 }
 
-.entity.name.function, .support.function.any-method {
+.entity.name.function,
+.support.function.any-method {
   font-weight: bold;
   color: #AC885B;
 }
@@ -189,7 +199,8 @@ atom-text-editor.is-focused, :host(.is-focused) {
   color: #C5AF75;
 }
 
-.meta.property-group .support.constant.property-value.css, .meta.property-value .support.constant.property-value.css {
+.meta.property-group .support.constant.property-value.css,
+.meta.property-value .support.constant.property-value.css {
   color: #F9EE98;
 }
 
@@ -197,7 +208,8 @@ atom-text-editor.is-focused, :host(.is-focused) {
   color: #8693A5;
 }
 
-.meta.property-value .support.constant.named-color.css, .meta.property-value .constant {
+.meta.property-value .support.constant.named-color.css,
+.meta.property-value .constant {
   color: #CA7840;
 }
 
