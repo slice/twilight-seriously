@@ -1,3 +1,6 @@
+## 0.0.3
+- Dummy version used to update `README` with screenshot.
+
 ## 0.0.2
 - Tidy up `base.less` a little.
 
